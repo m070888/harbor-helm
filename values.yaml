@@ -570,10 +570,10 @@ registry:
     image:
       repository: goharbor/registry-photon
       tag: dev
-    # resources:
-    #  requests:
-    #    memory: 256Mi
-    #    cpu: 100m
+    resources:
+      requests:
+        memory: 20Gi
+        cpu: 100m
     extraEnvVars: []
   controller:
     image:
